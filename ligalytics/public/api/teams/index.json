@@ -1,0 +1,107 @@
+{
+  "leagues": [
+    {
+      "id": "alpha-liga",
+      "name": "Alpha Liga",
+      "country": "Deutschland",
+      "teams": [
+        {
+          "id": "fc-aurora-nord",
+          "name": "FC Aurora Nord",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%23FF4555'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>AUR</text></svg>"
+        },
+        {
+          "id": "sv-rheinfall",
+          "name": "SV Rheinfall",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%23FFD700'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='black' text-anchor='middle'>RHF</text></svg>"
+        },
+        {
+          "id": "union-morgenrot",
+          "name": "Union Morgenrot",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%23FF6B6B'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>UMR</text></svg>"
+        },
+        {
+          "id": "tsg-silbersee",
+          "name": "TSG Silbersee",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%23C0C0C0'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='black' text-anchor='middle'>TSG</text></svg>"
+        },
+        {
+          "id": "sc-eichenwald",
+          "name": "SC Eichenwald",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%234A7C59'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>SCE</text></svg>"
+        },
+        {
+          "id": "vfl-sturmfels",
+          "name": "VfL Sturmfels",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%230085FF'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>VFL</text></svg>"
+        },
+        {
+          "id": "atlas-koenigsstadt",
+          "name": "Atlas Königsstadt",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%238A2BE2'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>AKS</text></svg>"
+        },
+        {
+          "id": "rot-weiss-neuland",
+          "name": "Rot-Weiss Neuland",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%23D90429'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>RWN</text></svg>"
+        },
+        {
+          "id": "blau-gelb-sonnenhof",
+          "name": "Blau-Gelb Sonnenhof",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><defs/><rect width='96' height='96' rx='8' fill='%23007BFF'/><rect y='48' width='96' height='48' fill='%23FFC107'/><text x='48' y='56' font-family='Arial,sans-serif' font-size='14' font-weight='bold' fill='white' text-anchor='middle'>BGS</text></svg>"
+        },
+        {
+          "id": "olympia-falkenberg",
+          "name": "Olympia Falkenberg",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%23FF9800'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='black' text-anchor='middle'>OFK</text></svg>"
+        },
+        {
+          "id": "spvgg-wiesenau",
+          "name": "SpVgg Wiesenau",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%2328A745'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>SVW</text></svg>"
+        },
+        {
+          "id": "fortuna-muehlenbach",
+          "name": "Fortuna Mühlenbach",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%23E83E8C'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>FMB</text></svg>"
+        },
+        {
+          "id": "dynamo-lichttal",
+          "name": "Dynamo Lichttal",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%232C3E50'/><circle cx='48' cy='48' r='18' fill='%23F1C40F'/><text x='48' y='87' font-family='Arial,sans-serif' font-size='12' font-weight='bold' fill='white' text-anchor='middle'>DYN</text></svg>"
+        },
+        {
+          "id": "kickers-alpengrau",
+          "name": "Kickers Alpengrau",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%239E9E9E'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='black' text-anchor='middle'>KAG</text></svg>"
+        },
+        {
+          "id": "phoenix-hohenrain",
+          "name": "Phoenix Hohenrain",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%23FF512F'/><stop offset='1' stop-color='%23DD2476'/></linearGradient><rect width='96' height='96' rx='8' fill='url(%23g)'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>PHX</text></svg>"
+        },
+        {
+          "id": "rasensport-hafenblick",
+          "name": "Rasensport Hafenblick",
+          "country": "Deutschland",
+          "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><rect width='96' height='96' rx='8' fill='%2300BFA5'/><text x='48' y='55' font-family='Arial,sans-serif' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>RSB</text></svg>"
+        }
+      ]
+    }
+  ]
+}
