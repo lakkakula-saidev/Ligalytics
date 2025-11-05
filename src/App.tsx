@@ -4,21 +4,16 @@ import WishList from "./components/WishList";
 import type { Team, Wish, WishFormValues, TeamsResponse } from "./types";
 import "./App.css";
 
-const TEAM_ENDPOINTS = ["/api/teams", "/api/teams/index.json"] as const;
+const TEAMS_ENDPOINT = `${import.meta.env.BASE_URL}api/teams.json`;
 
 const fetchTeams = async (signal: AbortSignal): Promise<TeamsResponse> => {
-  for (const endpoint of TEAM_ENDPOINTS) {
-    const response = await fetch(endpoint, { signal });
-    if (response.ok) {
-      return (await response.json()) as TeamsResponse;
-    }
-
-    if (response.status !== 404) {
-      throw new Error(`Teams request failed (${response.status})`);
-    }
+  const response = await fetch(TEAMS_ENDPOINT, { signal });
+  if (!response.ok) {
+    throw new Error(
+      `Teams request failed (${response.status}) for ${TEAMS_ENDPOINT}`
+    );
   }
-
-  throw new Error("Teams endpoint not found (404).");
+  return (await response.json()) as TeamsResponse;
 };
 
 const App = () => {
@@ -33,7 +28,9 @@ const App = () => {
     const loadTeams = async () => {
       try {
         const payload = await fetchTeams(controller.signal);
-        const normalizedTeams = payload.leagues.flatMap((league) => league.teams);
+        const normalizedTeams = payload.leagues.flatMap(
+          (league) => league.teams
+        );
         setTeams(normalizedTeams);
       } catch (error) {
         if (controller.signal.aborted) {
@@ -58,7 +55,7 @@ const App = () => {
     const newWish: Wish = {
       ...values,
       id: timestamp,
-      createdAt: timestamp,
+      createdAt: timestamp
     };
     setWishes((previous) => [newWish, ...previous]);
   };
