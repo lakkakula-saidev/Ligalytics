@@ -8,6 +8,7 @@ export interface Team {
   id: string
   name: string
   country: string
+  logo?: string
 }
 
 export interface WishFormValues {
@@ -22,4 +23,15 @@ export interface WishFormValues {
 export interface Wish extends WishFormValues {
   id: string
   createdAt: string
+}
+
+export interface League {
+  id: string
+  name: string
+  country: string
+  teams: Team[]
+}
+
+export interface TeamsResponse {
+  leagues: League[]
 }
